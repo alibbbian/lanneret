@@ -1,5 +1,5 @@
-* 标准maven工程
-* linux下，目录结构。运行gofly.sh，会解压weijiaoyi-1.0-SNAPSHOT.jar到classes文件夹，更新jar包时，需要手动删除classes文件夹
+* maven工程
+* linux下，目录结构。运行./bin/gofly.sh your.jar，会解压your.jar到classes文件夹，更新jar包时，需要手动删除classes文件夹
 <pre>
     + bin
         - build.bat
@@ -13,7 +13,7 @@
     + logs
         - battleplane.log
     + classes
-    - weijiaoyi-1.0-SNAPSHOT.jar
+    - your.jar
 </pre>
 * window启动关闭脚本需二次编写
 <pre>
