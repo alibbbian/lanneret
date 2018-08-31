@@ -22,6 +22,7 @@ fi
 if [ "$1" = "" ]
 then
   echo "未指定jar包"
+  exit 1;
 else
   if [ -f "../$1" ];
   then
@@ -35,6 +36,7 @@ else
     fi
   else
     echo "../$1不存在"
+    exit 1;
   fi
 fi
 
