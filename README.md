@@ -1,6 +1,7 @@
 * maven工程
 * 在your.jar中，编写实现接口com.bird.lanneret.core.Server的类，写入启动需要执行的代码
 * linux下，目录结构。运行./bin/gofly.sh your.jar，会解压your.jar到classes文件夹，更新jar包时，需要手动删除classes文件夹
+* 监听端口默认4043
 <pre>
     + bin
         - build.bat
